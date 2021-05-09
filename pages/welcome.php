@@ -8,12 +8,12 @@
     <body>
        <div class="containerDiv">
        <?php
-            $host="localhost";
+            $host="remotemysql.com";
             $port=3306;
             $socket="";
-            $user="root";
-            $dbpword="";
-            $dbname="new_schema";
+            $user="tKEe2ZPysT";
+            $dbpword="bWp9fNggQY";
+            $dbname="tKEe2ZPysT";
             $con = new mysqli($host, $user, $dbpword, $dbname, $port, $socket);
             if(!$con)
                 echo "ERROR";
